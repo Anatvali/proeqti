@@ -1,0 +1,84 @@
+html {
+  body {
+    .container {
+      background-color: $color-01;
+      .row {
+        .my-col {
+          .vertical-p {
+            transform: rotate(-90deg);
+          }
+          .shapes {
+            position: relative;
+            .line {
+              background-color: $color-02;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              width: 2px;
+              height: 118px;
+              z-index: 5;
+            }
+            .elipse {
+              border-radius: 50%;
+              background-color: $color-02;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              width: 26px;
+              height: 26px;
+              z-index: 6;
+            }
+            .rectangle {
+              border-width: 1px;
+              border-color: $color-02;
+              border-style: solid;
+              position: absolute;
+              left: 10px;
+              top: 10px;
+              width: 86px;
+              height: 430px;
+              z-index: 49;
+            }
+          }
+          .topic {
+            h2 {
+
+            }
+            h3 {
+
+            }
+            .line-shape {
+
+            }
+            .line-shape {
+
+            }
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// .rounded-rectangle {
+//   border-width: 2px;
+//   border-color: rgb(241, 180, 81);
+//   border-style: solid;
+//   position: absolute;
+//   left: 1409px;
+//   top: 2471px;
+//   width: 381px;
+//   height: 381px;
+//   z-index: 55;
+// }
+// .Rounded_Rectangle_5 {
+//   background-color: rgb(241, 180, 81);
+//   position: absolute;
+//   left: 1430px;
+//   top: 2492px;
+//   width: 344px;
+//   height: 344px;
+//   z-index: 54;
+// }

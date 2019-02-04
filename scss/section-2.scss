@@ -1,0 +1,55 @@
+html {
+  body {
+    .section-2 {
+      .container {
+        h2 {
+          margin-top: 50px;
+          margin-bottom: 100px;
+          font-weight:400;
+        }
+        .row {
+          .my-col {
+            a {
+              position: relative;
+              text-decoration: none;
+              color: $color-01;
+              img {
+
+              }
+              p {
+                margin: 40px auto;
+              }
+              span {
+                border-width: 1px;
+                border-color: $color-01;
+                border-style: solid;
+                position: absolute;
+                left: 50%;
+                margin-left: -80px;
+                top: 50%;
+                margin-top: -80.5px;
+                width: 160px;
+                height: 161px;
+                z-index: 1;
+              }
+              .bg-color {
+                border-width: 1px;
+                border-color: $color-01;
+                background: $color-01;
+                border-style: solid;
+                position: absolute;
+                left: 50%;
+                margin-left: -80px;
+                top: 50%;
+                margin-top: -80.5px;
+                width: 160px;
+                height: 161px;
+                z-index: -1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

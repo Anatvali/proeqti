@@ -1,0 +1,26 @@
+%flex-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%container{
+    width: 1170px;
+    margin: 0 auto;
+}
+%padding-20{
+    padding: 20px;
+}
+
+// %circle {
+//   width: 50px;
+//   height: 50px;
+//   background: green;
+//   border-radius: 40%;
+// }
+//
+// %text-center {
+//   text-align: center;
+// }
+// %text-end {
+//   text-align: end;
+// }

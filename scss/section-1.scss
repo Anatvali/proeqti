@@ -1,0 +1,47 @@
+// html{
+//   .bg-cover {
+//     position: relative;
+//     background: url('../img/section-1/bg-cover.png') no-repeat center center;
+//     background-size: cover;
+//     width: 100%;
+//     height: 100vh;
+//     .overlay-1 {
+//
+//     }
+//     .overlay-2 {
+//       .container {
+//         .row {
+//
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+// .bg-cover {
+// position: relative;
+// background: url('../img/section-1/bg-cover.png') no-repeat center center;
+// background-size: cover;
+// width: 100%;
+// height: 100vh;
+// z-index: 111;
+// .overlay-1 {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgb(4, 53, 62);
+//   opacity: 0.6;
+//   z-index:222;
+// }
+// .overlay-2 {
+//   position: relative;
+//   background: url('../img/section-1/upper-layer.png') no-repeat center center;
+//   background-size: cover;
+//   width: 100%;
+//   height: 100%;
+//   opacity: 0.2;
+//   z-index: 333;

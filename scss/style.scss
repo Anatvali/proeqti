@@ -1,0 +1,64 @@
+@import '../module/mixins.scss';
+@import '../module/private.scss';
+@import '../module/variables.scss';
+// @import '../fonts/fonts.scss';
+@import 'header.scss';
+// @import 'section-1.scss';
+// @import 'section-2.scss';
+// @import 'section-3.scss';
+// @import 'section-5';
+// @import 'section-7.scss';
+// @import 'footer.scss';
+
+html{
+  .bg-cover {
+    position: relative;
+    background: url('../img/section-1/bg-cover.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    .overlay-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $color-03;
+      opacity: 0.6;
+      z-index:222;
+    }
+    .overlay-2 {
+      position: absolute;
+      background: url('../img/section-1/upper-layer.png') no-repeat center center;
+      background-size: contain;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.2;
+      z-index: 333;
+      .container {
+        .row {
+          .my-col {
+            .section-1-content {
+              .sec-1-h1 {
+                color: $color-02;
+              }
+              .sec-1-h3 {
+                color: $color-02;
+              }
+              a {
+
+              }
+            }
+          }
+          .iphone-div {
+            img {
+              height: 600px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

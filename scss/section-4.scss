@@ -1,0 +1,48 @@
+html {
+  body {
+    .section-4 {
+      .container {
+        .row {
+          .my-col {
+            // margin-left: 0;
+            // &:before {
+            //   @include pseudo;
+            //   top: 10px;
+            //   left: 120px;
+            //   width: 2px;
+            //   height: 50px;
+            //   background-color: blue;
+            // }
+            a {
+              position: relative;
+              text-decoration: none;
+              color: blue;
+              img {
+              }
+              // &:after {
+              //   @include pseudo;
+              //   top: 45px;
+              //   left: 0px;
+              //   width: 100px;
+              //   height: 2px;
+              //   background-color: red;
+              // }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// table {
+//   margin: 0px;
+//   border-collapse: collapse;
+//   border-style: hidden;
+//   tr {
+//     td {
+//       padding: 15px;
+//       border: 3px solid blue;
+//     }
+//   }
+// }

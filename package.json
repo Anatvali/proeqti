@@ -1,0 +1,30 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "My very first package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anatvali/final-project.git"
+  },
+  "author": "Ana Tvaliashvili <ana.tvaliashvili@geolab.edu.ge>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anatvali/final-project/issues"
+  },
+  "homepage": "https://github.com/Anatvali/final-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-bower": "0.0.14",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}

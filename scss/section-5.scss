@@ -1,0 +1,27 @@
+html {
+  body {
+    .section-5 {
+      background: url('../img/section-5/cover-partners.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+
+      .container {
+        h2 {
+          // @include font-face();
+        }
+        .row {
+          .sec5-div {
+            padding: 40px 20px;
+            a {
+              img {
+                height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
